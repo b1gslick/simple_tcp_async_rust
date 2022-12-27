@@ -2,7 +2,9 @@
 name = "simple_tcp_async_rust"
 version = "0.1.0"
 edition = "2021"
+author = ["Sergei Timokhin copied by YouTube Lessons"]
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
+tokio = { version = "1", features = ["full"] }
